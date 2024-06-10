@@ -1,10 +1,7 @@
-
 import re, sys, glob
 import matplotlib.pyplot as plt
 from operator import itemgetter
 import numpy as np
-
-# --- end of imports --- #
 
 def construct_feature_response_curve( assembly_data, output_figure, estimated_genome_size ):
 	"""! @brief construct figure for visualization of assembly stats """

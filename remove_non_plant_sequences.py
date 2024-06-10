@@ -1,8 +1,6 @@
-
 import sys, glob, re, os, time, datetime, shutil, urllib2
 from operator import itemgetter
 
-# --- end of imports --- #
 
 __usage__ = """ python run_blastn_on_cluster.py\n
 							--assembly_file <INPUT_FILE (FASTA)>\n
@@ -10,9 +8,6 @@ __usage__ = """ python run_blastn_on_cluster.py\n
 							--tmp_cluser_dir <OUTPUT_DIRECTORY>\n
 							--final_result_dir <OUTPUT_DIRECTORY>\n
 							--active <activates execution of BLASTs>
-					
-							feature requests and bug reports:
-							bpucker@cebitec.uni-bielefeld.de
 						"""
 
 

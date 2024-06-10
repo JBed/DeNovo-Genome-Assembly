@@ -1,17 +1,12 @@
-
 __usage__ = """
 					python run_BUSCO_on_assembly.py\n
 					--cluster_dir <FULL_PATH_TO_OUTPUT_DIR>
 					--in <INPUT_ASSEMBLY_FILE>
-					
-					bug reports and feature requests: bpucker@cebitec.uni-bielefeld.de
 					"""
-
 
 import sys, os, re, glob
 from operator import itemgetter
 
-# --- end of imports --- #
 
 def run_BUSCO( input_file, prefix, busco_path, augustus_path, augustus_config_path ):
 	"""! @brief run BUSCO in genome mode on given assembly file """

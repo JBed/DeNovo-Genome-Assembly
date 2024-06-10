@@ -1,15 +1,11 @@
 
 import sys, glob, re, os, time, datetime, shutil
 
-# --- end of imports --- #
 
 __usage__ = """
 		python run_blastn_on_cluster.py\n
 		--assembly <FULL_PATH_TO_INPUT_FILE (FASTA)>\n
 		--output_dir <FULL_PATH_TO_OUTPUT_DIR>\n
-				
-		feature requests and bug reports:
-		bpucker@cebitec.uni-bielefeld.de
 """
 
 

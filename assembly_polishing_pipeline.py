@@ -1,4 +1,3 @@
-
 __usage__ = """
 					python assembly_polishing_pipeline.py\n
 					--result_dir <FULL_PATH_TO_FINAL_RESULT_DIR>
@@ -7,15 +6,11 @@ __usage__ = """
 					--read1 <FULL_PATH_TO_FASTQ_FILE>
 					--read2 <FULL_PATH_TO_FASTQ_FILE>
 					--fastq_dir <FULL_PATH_TO_DIRECTORY_WITH_RNA-Seq_READS>
-					
-					bug reports and feature requests: bpucker@cebited.uni-bielefeld.de
 					"""
 
 
 import os, sys, time
 from datetime import datetime
-
-# --- end of imports --- #
 
 
 def remove_adapter_sequences( input_file, adapter_clipping_dir, adapter_file, script, state ):

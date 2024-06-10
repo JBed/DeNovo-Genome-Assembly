@@ -1,7 +1,7 @@
 
 import sys, glob, re, os, time, datetime, shutil
 
-# --- end of imports --- #
+
 
 def read_information_file( info_file ):
 	"""! @brief load all information from given file """

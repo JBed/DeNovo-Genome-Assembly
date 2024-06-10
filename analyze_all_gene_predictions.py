@@ -1,19 +1,11 @@
-
-
 __usage__ = """
 	python analyze_all_gene_predictions.py\n
 	--in <FULL_PATH_TO_INPUT_DIRECTORY>
 	--out <FULL_PATH_TO_OUTPUT_DIRECTORY>
-	
-	calculates stats for all gene predictions in the given directory
-	
-	bug and feature requests: bpucker@cebitec.uni-bielefeld.de
 					"""
 
 import glob, re, sys, os
 import numpy as np
-
-# --- end of imports --- #
 
 
 def load_sequences( multiple_fasta_file ):

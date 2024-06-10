@@ -1,18 +1,12 @@
-
 __usage__ = """
 					python adapter_clipping.py\n
 					--assembly_file <FULL_PATH_TO_FASTA_FILE>
 					--output_dir <FULL_PATH_TO_OUTPUT_DIRECTORY>
 					
 					--adapter_file <FULL_PATH_TO_FASTA_FILE> (optional if hard coded)
-					
-					bug reports and feature requests: bpucker@cebitec.uni-bielefeld.de
 					"""
 
 import os, sys
-
-# --- end of imports --- #
-
 
 def load_sequences( multiple_fasta_file ):
 	"""! @brief load candidate gene IDs from file """

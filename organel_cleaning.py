@@ -1,7 +1,5 @@
 import os, sys
 
-# --- end of imports --- #
-
 def load_all_seqs_from_multiple_fasta_file( filename ):
 	"""! @brief load all sequences from multiple fasta file """
 	

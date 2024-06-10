@@ -1,4 +1,3 @@
-
 __usage__ = """
 					python purging_short_sequences.py\n
 					--in <ASSEMBLY_FILE>

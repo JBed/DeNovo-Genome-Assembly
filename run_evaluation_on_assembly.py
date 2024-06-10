@@ -1,11 +1,8 @@
-
-
 __usage__ = """
 					python run_evaluation_on_assembly.py\n
 					--cluster_dir <FULL_PATH_TO_OUTPUT_DIR>
 					--in <INPUT_ASSEMBLY_FILE>
-					
-					bug reports and feature requests: bpucker@cebitec.uni-bielefeld.de
+
 					"""
 
 

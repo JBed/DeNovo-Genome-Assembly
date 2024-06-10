@@ -4,8 +4,6 @@ __usage__ = """
 					--contig_file <FULL_PATH_TO_FILE>
 					--ref_file <FULL_PATH_TO_FILE>
 					--output_dir <FULL_PATH_TO_DIR>
-					
-					bug reports and feature requests: bpucker@cebitec.uni-bielefeld.de
 """
 
 
